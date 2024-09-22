@@ -10,6 +10,7 @@ print(total)
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 num = int(input('Digite um numero: '))
 resto = num % 5
+
 print(resto)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
@@ -32,15 +33,45 @@ raiz_quadrada_de_um_numero = num_usuario * num_usuario
 
 print(f'A raiz quadrada de {num_usuario} é {raiz_quadrada_de_um_numero}.')
 
-
-
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+num_fl01 = float(input('Digite um numero: '))
+num_fl02 = float(input('Digite outro numero: '))
+add = num_fl01 + num_fl02
+
+print(add)
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+num_fl03 = float(input('Digite um numero: '))
+num_fl04 = float(input('Digite outro numero: '))
+total_fl = (num_fl03 + num_fl04)
+media_fl = total_fl / 2
+
+print(media_fl) 
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+base = int(input('Digite o valor da base: '))
+expoente = int(input('Digite o valor do expoente: '))
+potencia = base ** expoente
+
+print(potencia)
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+graus_celsius =  int(input('Digite o valor da temperatura: '))
+graus_fahrenheit = (graus_celsius * 9/5) + 32
+graus_fahrenheit_2 =  round(graus_celsius * 1.8, 2) + 32
+
+print(graus_fahrenheit)
+print(graus_fahrenheit_2)
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+pi = 3.1415
+raio = float(input('Digite o valor do raio: '))
+
+area = pi * (raio ** 2)
+
+print(area)
 
 # #### Strings (`str`)
 
