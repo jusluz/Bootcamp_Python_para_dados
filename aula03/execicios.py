@@ -1,3 +1,5 @@
+#Lista de exercícios sobre a aula03
+
 ### Exercício 1: Verificação de Qualidade de Dados
 # Você está analisando um conjunto de dados de vendas e precisa garantir 
 # que todos os registros tenham valores positivos para `quantidade` e `preço`. 
@@ -61,3 +63,4 @@
 
 ### Exercício 15. Processamento de Dados com Condição de Parada
 # Processar itens de uma lista até encontrar um valor específico que indica a parada.
+
